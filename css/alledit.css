@@ -1,0 +1,156 @@
+html,body{
+	font-family: "Microsoft YaHei" !important;
+}
+
+
+
+.editheader{
+	margin-left :0 !important;
+}
+
+.editstudyleft{
+	left: 0px !important; 
+	opacity: 1 !important;
+}	
+
+.editstudyright{
+	left: 0px !important; 
+	opacity: 1 !important;
+}	
+
+
+/*navbaralledit*/
+
+.navbaralledit .container {
+	margin-left: 0px;
+	padding-left: 0px;
+
+}
+
+#templatemo_banner_top{
+	height: 67px;
+	background-color: black;
+}
+
+.headerlogo{
+	margin-left: 40px;
+	padding: 0px;
+	width: auto;
+	height: auto;
+
+}
+
+	.imglogo{
+		width: 35px;
+	}
+
+
+.headertitle{
+	margin-top: -5px;
+	margin-bottom: 0px;
+	margin-left:2px; 
+	padding:0px;
+	height: 67px;
+	width: auto;
+}
+
+	.headertitle h2{
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+
+	.headertitle h5{
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+
+	.headertitle h2{
+		margin-top: 18px;
+	}
+
+
+
+.headernav{
+	margin-right:20px;
+	padding:0px;
+	width: auto;
+	height: 65px;
+	transition:0.2s ease-out;
+	-moz-transition:0.2s ease-out;
+	-webkit-transition:0.2s ease-out; 
+}	
+
+	.headernav h4{
+		margin-top: 25px;
+	}
+
+	.headernav:hover{
+		background-color: #666666;
+	}
+	
+	.headernav:hover .line-top{
+								width:15.8%;
+								left:0.3%;
+							
+		background-color: #666666;
+	}
+
+	.headernav:hover .line-{
+		background-color: #666666;
+	}
+
+
+		.headernavfirst{
+			margin-left: 90px;
+		}
+
+
+
+
+
+/*templatemo_upcomming_event*/
+#templatemo_upcomming_event{
+	height: 900px;
+}
+
+.test1{
+	background-color: #fff !important;
+	background-image: none !important;
+}
+
+
+
+
+/*templatemo_footer*/
+.templatemo_footer_edit{
+	height: 75px;
+}
+
+#templatemo_footer i{
+	transition:0.2s ease-out;
+	-moz-transition:0.2s ease-out;
+	-webkit-transition:0.2s ease-out;
+}
+
+#templatemo_footer i:hover{
+	background-color: #fff;
+}
+	
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
