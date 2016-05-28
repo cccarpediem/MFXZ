@@ -1,110 +1,97 @@
 html,body{
 	font-family: "Microsoft YaHei" !important;
-}
+}/*全局的微软雅黑字体*/
+
+	
 
 
+/*navbar*/
 
-.editheader{
-	margin-left :0 !important;
-}
-
-.editstudyleft{
-	left: 0px !important; 
-	opacity: 1 !important;
-}	
-
-.editstudyright{
-	left: 0px !important; 
-	opacity: 1 !important;
-}	
-
-
-/*navbaralledit*/
-
-.navbaralledit .container {
-	margin-left: 0px;
-	padding-left: 0px;
-
+.index_navbar .container {
+	margin-left: 0px;/*nav的左边距*/
+	padding-left: 0px;/*nav的内容左边距*/
 }
 
 #templatemo_banner_top{
-	height: 67px;
-	background-color: black;
+	height: 67px;/*nav的上边距*/
+	background-color: black;/*nav的背景颜色*/
 }
 
-.headerlogo{
-	margin-left: 40px;
+/*navbar_logo*/
+.index_navbar_logo{
+	margin-left: 35px;
 	padding: 0px;
 	width: auto;
 	height: auto;
-
+	display: inline-block;
 }
 
-	.imglogo{
+	.index_navbar_logo_img{
 		width: 35px;
 	}
 
-
-.headertitle{
+/*navbar_title*/
+.index_navbar_title{
+	color:white;
 	margin-top: -5px;
 	margin-bottom: 0px;
 	margin-left:2px; 
 	padding:0px;
 	height: 67px;
 	width: auto;
+	display: inline-block;
 }
 
-	.headertitle h2{
+	.index_navbar_title h2{
 		margin-top: 0px;
 		margin-bottom: 0px;
 	}
 
-	.headertitle h5{
+	.index_navbar_title h5{
 		margin-top: 0px;
 		margin-bottom: 0px;
 	}
 
-	.headertitle h2{
+	.index_navbar_title h2{
 		margin-top: 18px;
 	}
 
-
-
-.headernav{
-	margin-right:20px;
-	padding:0px;
+/*navbar_section*/
+.navbar_section{
+	padding:0 1%;
 	width: auto;
 	height: 65px;
+	display: inline;
 	transition:0.2s ease-out;
 	-moz-transition:0.2s ease-out;
 	-webkit-transition:0.2s ease-out; 
 }	
 
-	.headernav h4{
+.navbar_section_first{
+	margin-left: 40px;
+}
+
+	.navbar_section h4{
+		color:white;
 		margin-top: 25px;
+		font-size:15px;
 	}
 
-	.headernav:hover{
+	.navbar_section:hover{
 		background-color: #666666;
+		cursor:pointer;/*将鼠标的手型变成手掌*/
 	}
 	
-	.headernav:hover .line-top{
-								width:15.8%;
-								left:0.3%;
-							
+	.navbar_section:hover .line-top{
+		width:15.8%;
+		left:0.3%;
 		background-color: #666666;
 	}
 
-	.headernav:hover .line-{
+	.navbar_section:hover .line-{
 		background-color: #666666;
 	}
-
-
-		.headernavfirst{
-			margin-left: 90px;
-		}
-
-
+/*navbar_end*/
 
 
 
@@ -245,7 +232,26 @@ html,body{
 					height:50%;
 					background-color: #d5d8db
 				}
-	
+
+
+
+/*instruction_design*/
+.id_select_course h5{
+	padding: 0.3% 0.3%;
+	margin: 0.8% 1%;
+	transition:0.2s ease-out;
+	-moz-transition:0.2s ease-out;
+	-webkit-transition:0.2s ease-out; 
+
+}
+
+.id_select_course h5:hover{
+	background-color:red;
+}
+
+
+
+
 
 
 
