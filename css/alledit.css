@@ -57,40 +57,23 @@ html,body{
 	}
 
 /*navbar_section*/
-.navbar_section{
-	padding:0 1%;
-	width: auto;
-	height: 65px;
-	display: inline;
-	transition:0.2s ease-out;
-	-moz-transition:0.2s ease-out;
-	-webkit-transition:0.2s ease-out; 
-}	
+
 
 .navbar_section_first{
 	margin-left: 40px;
 }
 
-	.navbar_section h4{
-		color:white;
-		margin-top: 25px;
-		font-size:15px;
-	}
+.navbar_section_hide{
+	background-color: black;
+	height:65px;
+}
 
-	.navbar_section:hover{
-		background-color: #666666;
-		cursor:pointer;/*将鼠标的手型变成手掌*/
-	}
-	
-	.navbar_section:hover .line-top{
-		width:15.8%;
-		left:0.3%;
-		background-color: #666666;
-	}
+.navbar_section_show{
+	background-color:#666666!important ;
+	height:65px !important;
+}
 
-	.navbar_section:hover .line-{
-		background-color: #666666;
-	}
+
 /*navbar_end*/
 
 
@@ -110,17 +93,16 @@ html,body{
 
 /*templatemo_footer*/
 .templatemo_footer_edit{
-	height: 75px;
+	height: 150px;
 }
 
-#templatemo_footer i{
-	transition:0.2s ease-out;
-	-moz-transition:0.2s ease-out;
-	-webkit-transition:0.2s ease-out;
+
+.fa_btw{
+	margin: 1% 1.2% 0 !important;
 }
 
-#templatemo_footer i:hover{
-	background-color: #fff;
+.fa_special{
+	padding:0.45% 0.28% !important;
 }
 
 
@@ -139,21 +121,19 @@ html,body{
 	padding-top:3%;
 }
 
+.introduction div{
+	text-align:center;
+}
+
 .introduction img{
 	width:16%;
 	height:300px;
 	background-color:white;
 	border:2px solid;
 	border-radius:50%;
-	margin-left:16%;
-	margin-top:6%;
-	margin-bottom:8%;
+	margin:6% 6% 8%;
+
 }
-
-	.introduction img:first-child{
-		margin-left:10%;
-	}
-
 
 
 
@@ -236,7 +216,10 @@ html,body{
 
 
 /*instruction_design*/
-.id_select_course h5{
+.id_select_course a{
+
+	text-decoration: none;
+	color:black;
 	padding: 0.3% 0.3%;
 	margin: 0.8% 1%;
 	transition:0.2s ease-out;
@@ -245,9 +228,16 @@ html,body{
 
 }
 
-.id_select_course h5:hover{
+
+
+
+.id_select_course a:hover{
 	background-color:red;
+	cursor:pointer;/*将鼠标的手型变成手掌*/
 }
+
+
+
 
 
 
