@@ -238,6 +238,41 @@ html,body{
 
 
 
+.course_show{
+
+}
+
+.course_hide{
+	display: none !important;
+}
+
+.hide{
+	display: none !important;
+}
+
+
+
+#content_list h3{
+	display: none;
+	opacity:0;
+	filter:alpha(opacity=0);
+}
+
+#content_list h3.cur{
+	display:inline-block!important;
+	opacity:1;
+	filter:alpha(opacity=100);
+}
+
+
+#course_list div.cur a{
+	background-color:red !important;
+}
+
+
+
+
+
 
 
 
