@@ -1,0 +1,72 @@
+
+/*重置*/
+
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+ol, ul { list-style: none; }
+
+caption, th { text-align: left; }
+
+
+q:before, q:after { content:;
+}
+
+
+
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.clearfix { zoom: 1; }
+
+
+
+.poster-main {
+  width: 1000px;
+  height: 1000px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.poster-main a, .poster-main img { display: block; }
+
+.poster-main .poster-list {
+  width: 1000px;
+  height: 1000px;
+}
+
+.poster-main .poster-list .poster-item {
+  width: 200px;
+  height: 1000px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.poster-main .poster-btn {
+  position: absolute;
+  top: 0;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.poster-main .poster-prev-btn {
+  left: 0;
+  background: url(../images/left.png) no-repeat center center;
+}
+
+.poster-main .poster-next-btn {
+  right: 0;
+  background: url(../images/right.png) no-repeat center center;
+}

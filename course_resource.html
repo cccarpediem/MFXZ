@@ -14,6 +14,8 @@
     <link rel="stylesheet" type="text/css" href="css/alledit.css">
 
     <link rel="stylesheet" href="font-awesome-4.5.0/css/font-awesome.min.css">
+
+    <link href="css/jquery.treemenu.css" rel="stylesheet" type="text/css">
 </head>
 <body>
     <nav class="navbar navbar-default navbar-fixed-top index_navbar" style="height:65px;">
@@ -29,23 +31,23 @@
                     <h5>MFXZ.TK</h5>
                 </div>
 
-                <a href="index.html" id="test" class="col-md-8 navbar_section navbar_section_first navbar_section_hide">   
+                <a href="index.html" class="col-md-8 navbar_section navbar_section_first navbar_section_hide">   
                     <h4>首页</h4>
                 </a>
 
-                <a href="course_analysis.html" id="test" class="col-md-8 navbar_section navbar_section_hide">
+                <a href="course_analysis.html" class="col-md-8 navbar_section navbar_section_hide">
                     <h4>课程分析</h4>
                 </a>
 
-                <a href="instruction_design.html" id="test" class="col-md-8 navbar_section navbar_section_hide">
+                <a href="instruction_design.html" class="col-md-8 navbar_section navbar_section_hide">
                     <h4>教学设计</h4>
                 </a>
 
-                <a href="course_resource.html" id="test" class="col-md-8 navbar_section navbar_section_show">
+                <a href="course_resource.html" class="col-md-8 navbar_section navbar_section_show">
                     <h4>课程资源</h4>
                 </a>
 
-                <a class="col-md-8 navbar_section navbar_section_hide">
+                <a href="team_introduction.html" class="col-md-8 navbar_section navbar_section_hide">
                     <h4>团队概况</h4>
                 </a>
 
@@ -54,30 +56,227 @@
     </div>
     </nav>
 
-    <div class="cr_ppt_title" style="text-align:left;width:auto;height:auto;margin:7% 12% 0.5%;border-bottom:2px solid;border-color: #d0d6d9">
+    <!--<div class="cr_ppt_title" style="text-align:left;width:auto;height:auto;margin:7% 12% 0.5%;border-bottom:2px solid;border-color: #d0d6d9">
     	<h4><b>PPT资源</b></h4>
     </div>
-	<div class="cr_ppt_content" style="text-align:left;width:auto;height:auto;margin:1% 12% 0.5%;">
-    <img src="images/event_01.jpg" style="width:20%;margin:3% 15% 4% 5%">
-    <img src="images/event_02.jpg" style="width:20%;margin:3% 15% 4% 0">
-    <img src="images/event_03.jpg" style="width:20%">
-    <img src="images/event_03.jpg" style="width:20%;margin:3% 15% 4% 5%">
-    <img src="images/event_01.jpg" style="width:20%;margin:3% 15% 4% 0">
-    <img src="images/event_02.jpg" style="width:20%">
-	</div>
 
-    <div class="cr_other_title" style="text-align:left;width:auto;height:auto;margin:1% 12% 0.5%;border-bottom:2px solid;border-color: #d0d6d9">
+
+	<div class="cr_ppt_content" style="text-align:left;width:auto;height:auto;margin:1% 12% 0.5%;">
+        <div style="background:url(images/event_01.jpg) no-repeat;background-size:100%;width:200px;height:160px;margin-right:10%;margin-left:10%;margin-bottom: 5%;margin-top: 2%">
+            <a href="http://mfxz.tk/home/1/1.1.rar">1.1教学设计</a>
+            <a href="http://mfxz.tk/home/1/1.2.rar">1.2教学设计</a>
+            <a href="http://mfxz.tk/home/1/1.3.rar">1.3教学设计</a>
+        </div>
+        <div style="background:url(images/event_02.jpg) no-repeat;background-size:100%;width:200px;height:160px;margin-right:10%;margin-bottom: 5%;margin-top: 2%">
+            <a href="http://mfxz.tk/home/2/2.1.rar" style="margin-top:14%;">2.1教学设计</a>
+            <a href="http://mfxz.tk/home/2/2.2.rar">2.2教学设计</a>
+            <a href="http://mfxz.tk/home/2/2.3.rar">2.3教学设计</a>
+            <a href="http://mfxz.tk/home/2/2.4.rar">2.4教学设计</a>
+            <a href="http://mfxz.tk/home/2/2.5.rar">2.5教学设计</a>
+        </div>
+
+        <div style="background:url(images/event_03.jpg) no-repeat;background-size:100%;width:200px;height:160px;;margin-bottom: 5%;margin-top: 2%">
+        <a href="">1.1教学设计</a>
+            <a href="">1.2教学设计</a>
+            <a href="">1.3教学设计</a>
+        </div>
+
+        <div style="background:url(images/event_03.jpg) no-repeat;background-size:100%;width:200px;height:160px;margin-right:10%;margin-left:10%">
+        <a href="">1.1教学设计</a>
+            <a href="">1.2教学设计</a>
+            <a href="">1.3教学设计</a>
+        </div>
+        <div style="background:url(images/event_01.jpg) no-repeat;background-size:100%;width:200px;height:160px;margin-right:10%;">
+        <a href="">1.1教学设计</a>
+            <a href="">1.2教学设计</a>
+            <a href="">1.3教学设计</a>
+        </div>
+
+        <div style="background:url(images/event_02.jpg) no-repeat;background-size:100%;width:200px;height:160px;">
+        <a href="">1.1教学设计</a>
+            <a href="">1.2教学设计</a>
+            <a href="">1.3教学设计</a>
+        </div>
+    </div>-->
+
+    <!--<div class="cr_other_title" style="width:auto;height:auto;margin:3% 12% 0.5%;border-bottom:2px solid;border-color: #d0d6d9">
     	<h4><b>其他资源</b></h4>
     </div>
+    <div class="cr_ppt_content" style="text-align:left;width:auto;height:auto;margin:1% 12% 0.5%;">
+        <div style="background:url(images/event_01.jpg) no-repeat;background-size:100%;width:200px;height:160px;margin-right:10%;margin-left:10%;margin-bottom: 5%;margin-top: 2%">
+            <a href="index.html">1.1教学设计</a>
+            <a href="index.html">1.2教学设计</a>
+            <a href="index.html">1.3教学设计</a>
+        </div>
+        <div style="background:url(images/event_02.jpg) no-repeat;background-size:100%;width:200px;height:160px;margin-right:10%;margin-bottom: 5%;margin-top: 2%">
+        <a href="">1.1教学设计</a>
+            <a href="">1.2教学设计</a>
+            <a href="">1.3教学设计</a>
+        </div>
 
-    <div class="cr_other_content" style="text-align:left;width:auto;height:auto;margin:1% 12% 0.5%;">
-    <img src="images/event_01.jpg" style="width:20%;margin:3% 15% 4% 5%">
-    <img src="images/event_03.jpg" style="width:20%;margin:3% 15% 4% 0">
-    <img src="images/event_02.jpg" style="width:20%">
-    <img src="images/event_02.jpg" style="width:20%;margin:3% 15% 4% 5%">
-    <img src="images/event_03.jpg" style="width:20%;margin:3% 15% 4% 0">
-    <img src="images/event_01.jpg" style="width:20%">
-	</div>
+        <div style="background:url(images/event_03.jpg) no-repeat;background-size:100%;width:200px;height:160px;;margin-bottom: 5%;margin-top: 2%">
+        <a href="">1.1教学设计</a>
+            <a href="">1.2教学设计</a>
+            <a href="">1.3教学设计</a>
+        </div>
+
+        <div style="background:url(images/event_03.jpg) no-repeat;background-size:100%;width:200px;height:160px;margin-right:10%;margin-left:10%">
+        <a href="">1.1教学设计</a>
+            <a href="">1.2教学设计</a>
+            <a href="">1.3教学设计</a>
+        </div>
+        <div style="background:url(images/event_01.jpg) no-repeat;background-size:100%;width:200px;height:160px;margin-right:10%;">
+        <a href="">1.1教学设计</a>
+            <a href="">1.2教学设计</a>
+            <a href="">1.3教学设计</a>
+        </div>
+
+        <div style="background:url(images/event_02.jpg) no-repeat;background-size:100%;width:200px;height:160px;">
+        <a href="">1.1教学设计</a>
+            <a href="">1.2教学设计</a>
+            <a href="">1.3教学设计</a>
+        </div>
+    </div>-->
+
+<div style="width:100%;height: auto;background-color: #666666;margin-top:-30px">
+<ul class="tree" style="margin-bottom: 0">
+<!--one-->
+    <li><span><a style="padding:4pt;margin-left:0.5%" >第一章 揭开计算机解决问题的神秘面纱</a></span>
+        <ul>
+          <li><span><a style="padding:4pt;margin-left:0.5%">PPT资源</a></span>
+            <ul>
+              <li><a href="#">1.1 计算机解决问题的过程</a></li>
+              <li><a href="#">1.2 算法和算法的描述</a></li>
+              <li><a href="#">1.3 程序与程序设计语言</a></li>
+            </ul>
+          </li>
+
+          <li><span><a style="padding:4pt;margin-left:0.5%">其他资源</a></span>
+            <ul>
+              <li><a href="#" class="active">1.1 计算机解决问题的过程</a></li>
+              <li><a href="#">1.2 算法和算法的描述</a></li>
+              <li><a href="#">1.3 程序与程序设计语言</a></li>
+            </ul>
+          </li>
+        </ul>
+    </li>
+
+<!--tow-->
+    <li><span><a style="padding:4pt;margin-left:0.5%">第二章 程序设计基础</a></span>
+        <ul>
+          <li><span><a style="padding:4pt;margin-left:0.5%">PPT资源</a></span>
+            <ul>
+              <li><a href="#">2.1 VB设计基础</a></li>
+              <li><a href="#">2.2 程序的顺序结构</a></li>
+              <li><a href="#">2.3 程序的选择结构</a></li>
+              <li><a href="#">2.4 程序的循环结构</a></li>
+              <li><a href="#">2.5 模块化程序设计</a></li>
+            </ul>
+          </li>
+
+          <li><span><a style="padding:4pt;margin-left:0.5%">其他资源</a></span>
+            <ul>
+              <li><a href="#">2.1 VB设计基础</a></li>
+              <li><a href="#">2.2 程序的顺序结构</a></li>
+              <li><a href="#">2.3 程序的选择结构</a></li>
+              <li><a href="#" class="active">2.4 程序的循环结构</a></li>
+              <li><a href="#">2.5 模块化程序设计</a></li>
+            </ul>
+          </li>
+        </ul>
+    </li>
+
+<!--three-->
+    <li><span><a style="padding:4pt;margin-left:0.5%">第三章 可视化编程</a></span>
+        <ul>
+          <li><span><a style="padding:4pt;margin-left:0.5%">PPT资源</a></span>
+            <ul>
+              <li><a href="#">3.1 可视化编程的概念与方法</a></li>
+              <li><a href="#">3.2 程序调试的方法</a></li>
+            </ul>
+          </li>
+
+          <li><span><a style="padding:4pt;margin-left:0.5%">其他资源</a></span>
+            <ul>
+              <li><a href="#">3.1 可视化编程的概念与方法</a></li>
+              <li><a href="#">3.2 程序调试的方法</a></li>
+            </ul>
+          </li>
+        </ul>
+    </li>
+
+<!--four-->
+    <li><span><a style="padding:4pt;margin-left:0.5%">第四章 算法与程序实现</a></span>
+        <ul>
+          <li><span><a style="padding:4pt;margin-left:0.5%">PPT资源</a></span>
+            <ul>
+              <li><a href="#">4.1 用解析法设计程序</a></li>
+              <li><a href="#">4.2 用穷举法设计程序</a></li>
+              <li><a href="#">4.3 查找算法设计</a></li>
+              <li><a href="#">4.4 排序算法设计</a></li>
+              <li><a href="#">4.5 递归算法与递归程序</a></li>
+              <li><a href="#">4.6 综合活动</a></li>
+            </ul>
+          </li>
+
+          <li><span><a style="padding:4pt;margin-left:0.5%">其他资源</a></span>
+            <ul>
+              <li><a href="#">4.1 用解析法设计程序</a></li>
+              <li><a href="#">4.2 用穷举法设计程序</a></li>
+              <li><a href="#">4.3 查找算法设计</a></li>
+              <li><a href="#">4.4 排序算法设计</a></li>
+              <li><a href="#">4.5 递归算法与递归程序</a></li>
+              <li><a href="#">4.6 综合活动</a></li>
+            </ul>
+          </li>
+        </ul>
+    </li>
+
+<!--five-->
+    <li><span><a style="padding:4pt;margin-left:0.5%">第五章 面向对象程序设计</a></span>
+        <ul>
+          <li><span><a style="padding:4pt;margin-left:0.5%">PPT资源</a></span>
+            <ul>
+              <li><a href="#">5.1 面向对象程序设计的基本思想</a></li>
+              <li><a href="#">5.2 面向对象程序设计的基本概念</a></li>
+              <li><a href="#">5.3 面向对象的功能实现</a></li>
+            </ul>
+          </li>
+
+          <li><span><a style="padding:4pt;margin-left:0.5%">其他资源</a></span>
+            <ul>
+              <li><a href="#">5.1 面向对象程序设计的基本思想</a></li>
+              <li><a href="#">5.2 面向对象程序设计的基本概念</a></li>
+              <li><a href="#">5.3 面向对象的功能实现</a></li>
+            </ul>
+          </li>
+        </ul>
+    </li>
+
+<!--six-->
+    <li><span><a style="padding:4pt;margin-left:0.5%">第六章 程序设计实践</a></span>
+        <ul>
+          <li><span><a style="padding:4pt;margin-left:0.5%">PPT资源</a></span>
+            <ul>
+              <li><a href="#">6.1 多媒体应用程序设计</a></li>
+              <li><a href="#">6.2 数据库管理软件的开发</a></li>
+            </ul>
+          </li>
+
+          <li><span><a style="padding:4pt;margin-left:0.5%">其他资源</a></span>
+            <ul>
+              <li><a href="#">6.1 多媒体应用程序设计</a></li>
+              <li><a href="#">6.2 数据库管理软件的开发</a></li>
+            </ul>
+          </li>
+        </ul>
+    </li>
+
+
+</div>
+
+        
+
 
 
 <!--footer-->
@@ -96,9 +295,16 @@
         </div>
     </div>
 
+    <script src="js/jquery-1.11.2.min.js"></script> 
+    <script src="js/jquery.treemenu.js"></script> 
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.easing.1.3.js"></script>
-	
+	<script>
+$(function(){
+        $(".tree").treemenu({delay:300}).openActive();
+    });
+</script>
+    
 </body>
 </html>

@@ -260,7 +260,7 @@ html,body{
 
 		.id_select_course a:hover{
 			color:white;
-			background-color:red;
+			background-color:#666666;
 			cursor:pointer;/*将鼠标的手型变成手掌*/
 		}
 
@@ -295,7 +295,7 @@ html,body{
 
 .show1{
 	color:white !important;
-	background-color: red;
+	background-color: #666666;
 }/*章节的点击样式*/
 
 
@@ -314,7 +314,7 @@ html,body{
 
 
 #course_list div.cur a{
-	background-color:red !important;
+	background-color:#666666 !important;
 }
 
 
@@ -353,7 +353,212 @@ html,body{
 		filter:alpha(opacity=100);
 
 	}
-	
+
+
+
+
+
+
+
+
+
+
+
+.cr_ppt_content div{
+	display: inline-block;
+}
+
+.cr_ppt_content a{
+	font-size: 15px;
+	text-align: center;
+	color:white;
+	text-decoration:none;
+	display: block;
+	padding:0;
+	margin:0;
+	opacity:0;
+	filter:alpha(opacity=0);
+	transition:0.4s ease-out;
+	-moz-transition:0.4s ease-out;
+	-webkit-transition:0.4s ease-out;
+
+
+}
+
+	.cr_ppt_content div:hover a{
+		opacity:1;
+		filter:alpha(opacity=100);
+	}
+
+	.cr_ppt_content a:first-child{
+		margin-top:25%;
+	}
+
+
+.cr_other_title div{
+	display: inline-block;
+}
+
+.cr_other_title a{
+	font-size: 15px;
+	text-align: center;
+	color:white;
+	text-decoration:none;
+	display: block;
+	padding:0;
+	margin:0;
+	opacity:0;
+	filter:alpha(opacity=0);
+	transition:0.4s ease-out;
+	-moz-transition:0.4s ease-out;
+	-webkit-transition:0.4s ease-out;
+
+
+}
+
+	.cr_other_title div:hover a{
+		opacity:1;
+		filter:alpha(opacity=100);
+	}
+
+	.cr_other_title a:first-child{
+		margin-top:25%;
+	}
+
+
+
+
+
+/*team_introduction*/
+.ti_array{
+	display: block;
+	width:auto;
+	height:220px;
+	margin:5% 22%;
+	border:4px solid;
+}
+
+	.ti_array h1{
+		margin:0;
+		padding:0;
+		color:rgb(118,113,113) !important;
+		font-size:26px;
+	}
+
+	.ti_array h5{
+		line-height: 25px;
+		color:rgb(118,113,113) !important;
+		font-size:18px;
+	}
+
+	.ti_section_6{
+		border-color:rgb(255,230,153);
+		background-color: rgb(255,242,204);
+	}
+
+	.ti_section_5{
+		border-color:rgb(248,203,173);
+		background-color: rgb(251,229,214);
+	}	
+
+	.ti_section_4{
+		border-color:rgb(189,218,238);
+		background-color: rgb(207,226,243);
+	}
+
+	.ti_section_3{
+		border-color:rgb(197,224,180);
+		background-color: rgb(234,244,228);
+	}
+
+	.ti_section_2{
+		border-color:rgb(189,215,238);
+		background-color: rgb(232,241,249);
+	}
+
+	.ti_section_1{
+		border-color:rgb(197,224,180);
+		background-color: rgb(226,240,217);
+	}
+
+	.ti_section_7{
+		border-color:rgb(251,229,214);
+		background-color: rgb(253,242,234);
+	}
+
+.ti_img{
+	display: inline-block;
+	height: 130px;
+}
+
+
+
+/*test*/
+.ti_img_test{
+	display: block;
+	width: 800px;
+}
+
+
+
+/*course_analysis*/
+.course_a_content h1{
+	line-height: 200% ;
+	margin-top:0;
+	margin-bottom: 0;
+}
+.course_a_content h2{
+	line-height: 200% ;
+	margin-top:0;
+	margin-bottom: 0;
+}
+.course_a_content h3{
+	line-height: 200% ;
+	margin-top:0 ;
+	margin-bottom: 0;
+}
+.course_a_content h4{
+	line-height: 200% ;
+	margin-top:0 ;
+	margin-bottom: 0;
+}
+.course_a_content h5{
+	line-height: 200% ;
+	margin-top:0 ;
+	margin-bottom: 0;
+}
+ /*将所有字体上下间距取消*/
+
+
+
+.level_1{
+	font-weight: bold;
+	font-size:24px !important;
+}
+
+.level_2{
+	font-weight: bold;
+	text-indent: 1.54em;
+	font-size:19px !important;
+}
+
+.level_3{
+	font-weight: bold;
+}
+
+.section_four h5{
+	line-height: 200%;
+}
+
+.level_content h5{
+	text-indent: 2em;
+	font-size:15px !important;
+	line-height: 200%;
+}
+
+
+
+
 
 
 
