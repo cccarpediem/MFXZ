@@ -11,7 +11,7 @@
     margin-right: 2pt;
 }
 
-li.tree-empty > .toggler { color: #aaa; }
+li.tree-empty > .toggler { color: black; }
 li.tree-empty > .toggler:before { content: "\2212"; }
 li.tree-closed > .toggler:before { content: "+"; }
 li.tree-opened > .toggler:before { content: "\2212"; }
@@ -19,7 +19,7 @@ li.tree-opened > .toggler:before { content: "\2212"; }
 
 *{list-style:none;border:none;}
 
-.tree {  color:white;width:800px;margin:100px auto;}
+.tree {  color:black;width:800px;margin:100px auto;}
 .tree li,
 .tree li > a,
 .tree li > span {
@@ -28,7 +28,7 @@ li.tree-opened > .toggler:before { content: "\2212"; }
 }
 
 .tree li a {
-   color:white;
+    color:black;
     text-decoration: none;
     line-height: 20pt;
     border-radius: 4px;

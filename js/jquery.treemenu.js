@@ -1,11 +1,3 @@
-/*
- treeMenu - jQuery plugin
- version: 0.4
-
- Copyright 2014 Stepan Krapivin
-
-*/
-
 (function($){
     $.fn.openActive = function(activeSel) {
         activeSel = activeSel || ".active";

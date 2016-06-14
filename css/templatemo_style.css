@@ -23,45 +23,6 @@ body {
     text-align: center;
 }
 
-/* templatemo_mobile_menu_wap */
-
-#templatemo_mobile_menu_wap {
-    width: 50px;
-    height: 44px;
-    right: 0;
-    top: 0;
-    position: fixed;
-    z-index: 1000;
-    background: #35abd9;
-}
-#templatemo_mobile_menu_wap p#mobile_menu_btn {
-    padding-top: 10px;
-    font-size: 20px;
-    text-align: right;
-    width: 100%;
-}
-#templatemo_mobile_menu_wap p#mobile_menu_btn span {
-    color: #fff;
-}
-#templatemo_mobile_menu_wap #mobile_menu {
-    position: fixed;
-    top: 0;
-    right: 0;
-    z-index: 1000;
-    background:#e7eaef;
-    margin-top: 44px;
-    border-radius: 4px;
-}
-#templatemo_mobile_menu_wap .nav-stacked li a {
-    color: #000;
-}
-#templatemo_mobile_menu_wap .nav-stacked li:hover a {
-    background-color: #67cbf2;
-    color: #000;
-}
-#templatemo_mobile_menu_wap .nav-stacked li a.focus {
-    background-color: transparent;
-}
 /* templatemo_banner_top */
 #templatemo_banner_top {
     background: #35abd9;

@@ -1,12 +1,4 @@
-/**
- * jQuery PicCarousel.js 
- * Version 0.1.4
- *
- * https://github.com/javion25/PicCarousel.js
- * MIT licensed
- *
- * Copyright (C) 2015 Javion.com - A project by Javion
- */
+
 ;(function($){
 
 	//定义PicCarousel类

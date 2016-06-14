@@ -2,9 +2,6 @@ html,body{
 	font-family: "Microsoft YaHei" !important;
 }/*全局的微软雅黑字体*/
 
-	
-
-
 /*navbar*/
 .navbar-default{
 	background-color: black;
@@ -14,7 +11,6 @@ html,body{
 .container_wapper{
 
 }
-
 
 .index_navbar .container {
 	margin-left: 0px;/*nav的左边距*/
@@ -202,9 +198,6 @@ html,body{
 					width:100%;
 				}
 
-
-
-
 			.pic-btn{
 				height:5%;
 				width:10%;
@@ -280,11 +273,6 @@ html,body{
 		text-align:left; 
 	}
 
-
-
-
-
-
 .course_hide{
 	display: none !important;
 }
@@ -353,15 +341,6 @@ html,body{
 		filter:alpha(opacity=100);
 
 	}
-
-
-
-
-
-
-
-
-
 
 
 .cr_ppt_content div{
@@ -557,36 +536,11 @@ html,body{
 }
 
 
+.table_a a{
+	color:black;
+	text-decoration: none;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
-
-
-
-
-
-
-
-
-
-
+	.table_a a:hover{
+		color:blue;
+	}
